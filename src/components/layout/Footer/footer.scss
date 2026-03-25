@@ -1,3 +1,5 @@
+@use "../../../styles/variablesAndMixins.scss" as *;
+
 footer {
     background-color: $black;
     padding-bottom: 8px;
@@ -139,6 +141,4 @@ footer {
             flex-wrap: wrap;
         }
     }
-
-
 }
